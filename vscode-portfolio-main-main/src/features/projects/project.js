@@ -23,7 +23,7 @@ export const project = [
     demo: "https://www.vivekatheintelligence.tech/",
   },
   {
-    title: "Prep Flow.ai",
+    title: "PrepFlow.ai",
     description:
       "A Cutting Edge Resume Analyzer.",
     image: prepflow,
