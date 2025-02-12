@@ -2,7 +2,7 @@
 import vscode from "../../assets/images/Screenshot 2025-02-13 000802.jpg";
 
 import viveka from "../../assets/images/viveka.jpg";
-import prepflow from "../../assets/images/prepflow.jpg";
+import prepflow from "../../assets/images/PrepFlow.jpg";
 export const project = [
   {
     title: "Vs-Code Portfolio",
