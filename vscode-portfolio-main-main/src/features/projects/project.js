@@ -1,7 +1,6 @@
-import dictionary from "../../assets/images/dictionary.jpg";
-import rest from "../../assets/images/rest.jpg";
+
 import vscode from "../../assets/images/Screenshot 2025-02-13 000802.jpg";
-import pizza from "../../assets/images/pizzapic.jpg";
+
 import viveka from "../../assets/images/viveka.jpg";
 import prepflow from "../../assets/images/prepflow.jpg";
 export const project = [
@@ -11,8 +10,8 @@ export const project = [
       "A Vscode themed developer portfolio website built with React.js and TailwindCSS.",
     image: vscode,
     tags: ["react", "tailwind", "axios"],
-    sourceCode: "https://github.com/manavss/vscode-portfolio-main",
-    demo: "https://vscode-portfolio-main.vercel.app/",
+    sourceCode: "",
+    demo: "",
   },
   {
     title: "Viveka 4.0 Website",
