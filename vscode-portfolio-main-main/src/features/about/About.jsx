@@ -41,7 +41,7 @@ function About() {
               About me:
             </h2>
             <p className="text-lg font-medium leading-tight text-slate-400 xl:text-xl">
-             Shrinjay Shresth is an Ex-SWE Intern at G&D Educara and an AI/ML Enthusiast. He is a 2X Hackathon Winner and Grand Finalist for Upcoming Prestigious Smart India I am also a team player who thrives in
+             Shrinjay Shresth is an Ex-SWE Intern at G&D Educara and an AI/ML Enthusiast. He is a 2X Hackathon Winner and Grand Finalist for Upcoming Prestigious Smart India. I am also a team player who thrives in
               collaborating with cross-functional teams to produce outstanding
               web applications and ML Solutions.
             </p>
