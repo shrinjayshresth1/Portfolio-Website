@@ -11,7 +11,7 @@ export const project = [
     image: vscode,
     tags: ["react", "tailwind", "axios"],
     sourceCode: "",
-    demo: "",
+    demo: "https://www.shrinjayshresth.site/",
   },
   {
     title: "Viveka 4.0 Website",
@@ -19,17 +19,16 @@ export const project = [
       " The Official Website for the Annual Tech Fest of Shri Ramswaroop Memorial University organized by Tech Fusion Club ",
     image: viveka,
     tags: ["react", "tailwind", "redux"],
-    sourceCode: "https://github.com/shrinjayshresth1/VIVEKA-4.0-WEBSITE/tree/kushag",
+    sourceCode:
+      "https://github.com/shrinjayshresth1/VIVEKA-4.0-WEBSITE/tree/kushag",
     demo: "https://www.vivekatheintelligence.tech/",
   },
   {
     title: "PrepFlow.ai",
-    description:
-      "A Cutting Edge Resume Analyzer.",
+    description: "A Cutting Edge Resume Analyzer.",
     image: prepflow,
     tags: ["Streamlit", "Gen AI", "LangChain"],
     sourceCode: "https://github.com/shrinjayshresth1/Resume-Sanchal",
     demo: "https://restcountrydetails.netlify.app/",
   },
-
 ];
