@@ -6,7 +6,12 @@ import { useLoaderData } from "react-router";
 
 function Github() {
   const [user, repos] = useLoaderData();
-  const repoInfo = repos.filter((r) => r.stargazers_count > 0);
+  // Show all non-fork repositories, sorted by updated date (most recent first)
+  const repoInfo = repos
+    .filter((r) => !r.fork) // Exclude forked repositories
+    .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at)) // Sort by most recently updated
+    .slice(0, 12); // Limit to 12 repositories for better display
+  
   const theme = {
     dark: ["#161B22", "#0e4429", "#006d32", "#26a641", "#39d353"],
   };
@@ -57,14 +62,14 @@ function Github() {
               );
             })}
         </div>
-        
+
         <div className="h-full w-full  text-textColor">
           <ActivityCalendar
             username="shrinjayshresth1"
             fontSize={17}
             theme={theme}
-            hideColorLegend
-            hideMonthLabels
+            //hideColorLegend
+            ///hideMonthLabels
           />
         </div>
       </div>

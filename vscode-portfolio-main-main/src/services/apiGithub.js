@@ -1,6 +1,6 @@
 import axios from "axios";
 const API_USER_URL = "https://api.github.com/users/shrinjayshresth1";
-const API_REPOS_URL = "https://api.github.com/users/shrinjayshresth1/repos";
+const API_REPOS_URL = "https://api.github.com/users/shrinjayshresth1/repos?per_page=100&sort=updated";
 
 export async function getUser() {
   try {

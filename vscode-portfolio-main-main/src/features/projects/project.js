@@ -29,6 +29,6 @@ export const project = [
     image: prepflow,
     tags: ["Streamlit", "Gen AI", "LangChain"],
     sourceCode: "https://github.com/shrinjayshresth1/Resume-Sanchal",
-    demo: "https://restcountrydetails.netlify.app/",
+    demo: "",
   },
 ];
