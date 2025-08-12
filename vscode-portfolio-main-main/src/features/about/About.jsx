@@ -30,7 +30,7 @@ function About() {
              ML Engineer <br /> Software Developer
             </h1>
             <h2 className="text-xl max-sm:hidden">
-              Hi, I'm Shrinjay Shresth. A passionate ML Engineer Developer <br />{" "}
+              Hi, I'm Shrinjay Shresth. An aspiring ML Engineer Developer <br />{" "}
               based in Patna,India. 📍
             </h2>
           </div>
@@ -41,7 +41,7 @@ function About() {
               About me:
             </h2>
             <p className="text-lg font-medium leading-tight text-slate-400 xl:text-xl">
-             Shrinjay Shresth is an Ex-SWE Intern at G&D Educara and an AI/ML Enthusiast. He is a 2X Hackathon Winner and Grand Finalist for Upcoming Prestigious Smart India. I am also a team player who thrives in
+             Shrinjay Shresth is an Ex-SWE Intern at G&D Educara and an AI/ML Enthusiast. He is a 4X Hackathon Winner and Grand Finalist for Upcoming Prestigious Smart India. I am also a team player who thrives in
               collaborating with cross-functional teams to produce outstanding
               web applications and ML Solutions.
             </p>
